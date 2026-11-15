@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Illustrated moonlit birthday sky">
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3c2a4a"/>
+      <stop offset="55%" stop-color="#8d4d6a"/>
+      <stop offset="100%" stop-color="#f3c3cf"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#night)"/>
+  <circle cx="250" cy="220" r="78" fill="#fff6d8"/>
+  <circle cx="280" cy="200" r="64" fill="#3c2a4a"/>
+  <g fill="#fff6d8">
+    <circle cx="120" cy="120" r="4"/>
+    <circle cx="480" cy="90" r="3"/>
+    <circle cx="620" cy="160" r="4"/>
+    <circle cx="700" cy="280" r="3"/>
+    <circle cx="540" cy="240" r="2.5"/>
+    <circle cx="160" cy="300" r="3"/>
+    <circle cx="400" cy="140" r="2"/>
+    <path d="M640 360l8 16 18 2-14 12 4 18-16-10-16 10 4-18-14-12 18-2z"/>
+    <path d="M140 420l6 12 14 2-10 9 3 14-13-8-13 8 3-14-10-9 14-2z"/>
+  </g>
+  <ellipse cx="400" cy="900" rx="300" ry="70" fill="#f7d5dc"/>
+  <rect x="300" y="760" width="200" height="100" rx="20" fill="#fff8f4"/>
+  <rect x="388" y="700" width="24" height="70" rx="6" fill="#e7b7c4"/>
+  <ellipse cx="400" cy="688" rx="14" ry="20" fill="#ffd166"/>
+  <g fill="#f48caf" opacity="0.85">
+    <path d="M180 640c0 18-16 30-30 30s-30-12-30-30 16-36 30-50c14 14 30 32 30 50z"/>
+    <path d="M690 600c0 16-14 26-26 26s-26-10-26-26 14-32 26-44c12 12 26 28 26 44z"/>
+  </g>
+</svg>

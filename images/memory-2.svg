@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Illustrated sunny flower garden">
+  <defs>
+    <linearGradient id="day" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe7c2"/>
+      <stop offset="45%" stop-color="#fde4ea"/>
+      <stop offset="100%" stop-color="#d8f0e4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#day)"/>
+  <circle cx="620" cy="180" r="70" fill="#ffd166"/>
+  <circle cx="620" cy="180" r="96" fill="#ffd166" opacity="0.25"/>
+  <g fill="#7dcea0">
+    <ellipse cx="400" cy="860" rx="360" ry="120"/>
+    <ellipse cx="180" cy="800" rx="140" ry="50"/>
+    <ellipse cx="640" cy="820" rx="160" ry="56"/>
+  </g>
+  <g>
+    <g transform="translate(180,620)">
+      <rect x="-4" y="40" width="8" height="120" fill="#3e8f62"/>
+      <circle cx="0" cy="0" r="36" fill="#f48caf"/>
+      <circle cx="0" cy="0" r="16" fill="#ffe08a"/>
+    </g>
+    <g transform="translate(320,560)">
+      <rect x="-4" y="40" width="8" height="160" fill="#3e8f62"/>
+      <circle cx="0" cy="0" r="42" fill="#e36b86"/>
+      <circle cx="0" cy="0" r="18" fill="#fff3c4"/>
+    </g>
+    <g transform="translate(470,640)">
+      <rect x="-4" y="30" width="8" height="130" fill="#3e8f62"/>
+      <circle cx="0" cy="0" r="34" fill="#c9b6f2"/>
+      <circle cx="0" cy="0" r="14" fill="#fff"/>
+    </g>
+    <g transform="translate(600,600)">
+      <rect x="-4" y="36" width="8" height="150" fill="#3e8f62"/>
+      <circle cx="0" cy="0" r="38" fill="#f7a8c4"/>
+      <circle cx="0" cy="0" r="15" fill="#ffe08a"/>
+    </g>
+  </g>
+  <g fill="#fff" opacity="0.7">
+    <path d="M90 160c0 16-14 26-26 26S38 176 38 160s14-32 26-44c12 12 26 28 26 44z"/>
+    <path d="M250 120c0 12-10 20-20 20s-20-8-20-20 10-26 20-36c10 10 20 24 20 36z"/>
+  </g>
+</svg>

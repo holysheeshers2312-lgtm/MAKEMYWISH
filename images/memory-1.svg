@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Illustrated birthday cake and balloons">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fde7ee"/>
+      <stop offset="100%" stop-color="#f7c9d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#sky)"/>
+  <g fill="#fff" opacity="0.55">
+    <path d="M120 150c0 18-16 28-28 28s-28-10-28-28 16-34 28-48c12 14 28 30 28 48z"/>
+    <path d="M690 240c0 16-14 26-26 26s-26-10-26-26 14-32 26-44c12 12 26 28 26 44z"/>
+    <path d="M180 820c0 14-12 22-22 22s-22-8-22-22 12-28 22-38c10 10 22 24 22 38z"/>
+  </g>
+  <g>
+    <ellipse cx="250" cy="430" rx="70" ry="86" fill="#8ec9f0"/>
+    <ellipse cx="228" cy="400" rx="16" ry="24" fill="#fff" opacity="0.55"/>
+    <path d="M250 516l-8 14h16z" fill="#5aa6d6"/>
+    <path d="M250 530c20 40-10 70-2 100" fill="none" stroke="#e7a8b8" stroke-width="3"/>
+    <ellipse cx="550" cy="390" rx="64" ry="80" fill="#f7a8c4"/>
+    <ellipse cx="530" cy="362" rx="14" ry="22" fill="#fff" opacity="0.55"/>
+    <path d="M550 470l-8 14h16z" fill="#e36b8c"/>
+    <path d="M550 484c-16 36 8 74 0 104" fill="none" stroke="#e7a8b8" stroke-width="3"/>
+  </g>
+  <ellipse cx="400" cy="860" rx="220" ry="28" fill="#f3ddd8"/>
+  <rect x="250" y="690" width="300" height="150" rx="28" fill="#8d5346"/>
+  <path d="M240 700c30-40 50-20 80-40s50 10 80-20 50 0 80-24 40 4 70 10 40-20 60-8v90H240z" fill="#fff8f4"/>
+  <rect x="388" y="600" width="24" height="90" rx="6" fill="#f4c9d2"/>
+  <ellipse cx="400" cy="586" rx="16" ry="24" fill="#ffb703"/>
+  <ellipse cx="400" cy="578" rx="7" ry="10" fill="#fff4c2"/>
+  <g fill="#fff" opacity="0.9">
+    <circle cx="160" cy="220" r="6"/>
+    <circle cx="640" cy="180" r="5"/>
+    <circle cx="600" cy="640" r="4"/>
+    <circle cx="140" cy="640" r="5"/>
+  </g>
+</svg>
