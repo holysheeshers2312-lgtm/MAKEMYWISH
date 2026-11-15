@@ -15,13 +15,13 @@ const CONFIG = {
   birthdayGreeting: "Happy Birthday",
 
   balloonMessages: [
-    "You are magic",
-    "You are loved",
-    "You are sunshine",
-    "You are enough",
+    "You are my happiness ❤️",
+    "You are my favourite person",
+    "You make life beautiful",
+    "You are my forever",
   ],
   balloonFinalMessage:
-    "You bring so much warmth and happiness wherever you go. Today, we celebrate everything that makes you wonderfully you.",
+    "If I could give you one thing in life, it would be the ability to see yourself through my eyes. You'd finally understand how beautiful, precious, and extraordinary you are to me. You make even my ordinary days feel special, and I'm so lucky to have you in my life. ❤️",
 
   roseMessages: [
     "Forever yours ♡",
@@ -35,16 +35,16 @@ const CONFIG = {
   letter: {
     signOff: "With all my love,",
     body:
-      "I'm so happy that you are with me even when I hurt you.",
+      "Happy Birthday, beautiful! ❤️\n\nI hope your day is as special as you are. I just want you to know how happy I am to have you in my life. I'm grateful for all the little moments, laughs, conversations, and memories we share.\n\nI wish you lots of happiness, success, good health, and everything you've been wishing for. Keep smiling, keep being yourself, and never stop chasing your dreams.\n\nI hope this year brings you everything you deserve and more.\n\nHave the best birthday, baby. ❤️ Love you!",
   },
 
   finalGiftMessage:
-    "Happy Birthday, {name}! May your days be filled with laughter, love, adventures, and all the little things that make you smile. You deserve the very best. 💗",
+    "Happy Birthday, {name}! ❤️\n\nYou make my world a little brighter just by being in it. Your smile is my favourite sight, your happiness means everything to me, and every moment with you becomes a beautiful memory. I hope life gives you countless reasons to smile, endless adventures to enjoy, and all the love your heart can hold. Never stop being the wonderful person you are. I'm so grateful to have you in my life. You deserve all the happiness in the world, today and always. 💗",
 
   memories: [
-    { src: "images/memory-1.svg", caption: "Happy Birthday! 🎂" },
-    { src: "images/memory-2.svg", caption: "Celebrating you 🎉" },
-    { src: "images/memory-3.svg", caption: "A day to remember ✨" },
+    { src: "images/memory-1.jpg", caption: "Dancing with you" },
+    { src: "images/memory-2.jpg", caption: "Us, side by side" },
+    { src: "images/memory-3.jpg", caption: "That night together" },
   ],
 
   // Audio never plays on its own. A chime starts only after a tap.
@@ -658,14 +658,6 @@ function tapGift() {
   }, prefersReducedMotion() ? 0 : 640);
 }
 
-function syncSound() {
-  const button = $("sound-btn");
-  button.setAttribute("aria-pressed", String(state.soundOn));
-  button.setAttribute("aria-label", state.soundOn ? "Turn sound off" : "Turn sound on");
-  button.querySelector(".icon-off").hidden = state.soundOn;
-  button.querySelector(".icon-on").hidden = !state.soundOn;
-}
-
 function show(screen) {
   state.screen = screen;
   document.querySelectorAll(".screen").forEach((section) => {
@@ -751,11 +743,6 @@ function replay() {
 
 function bindEvents() {
   $("back-btn").addEventListener("click", goBack);
-  $("sound-btn").addEventListener("click", () => {
-    state.soundOn = !state.soundOn;
-    syncSound();
-    if (state.soundOn) playChime("soft");
-  });
   $("yes-btn").addEventListener("click", () => {
     navGen += 1;
     noBusy = false;
@@ -809,7 +796,6 @@ function init() {
   buildBalloons();
   buildNotes();
   buildMemories();
-  syncSound();
   bindEvents();
   show("preparing");
   later(() => show("welcome"), 1200);

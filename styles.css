@@ -619,6 +619,10 @@ h1.script,
   color: var(--ink);
 }
 
+#gift-message {
+  white-space: pre-wrap;
+}
+
 .cake {
   position: relative;
   width: min(320px, 92%);
@@ -791,8 +795,8 @@ h1.script,
 
 .memory-stack {
   position: relative;
-  width: min(100%, 270px);
-  height: clamp(210px, 34dvh, 340px);
+  width: min(100%, 250px);
+  height: clamp(280px, 46dvh, 420px);
   margin-top: 4px;
   touch-action: pan-y;
 }
@@ -833,6 +837,7 @@ h1.script,
 
 .photo img {
   pointer-events: none;
+  object-position: center 32%;
 }
 
 .photo-fallback {
@@ -1285,7 +1290,7 @@ h1.script,
   .balloon-body { width: 84px; height: 100px; }
   .balloon-string { height: 28px; }
   .cake { transform: scale(0.86); margin: 0; }
-  .memory-stack { height: clamp(240px, 42dvh, 360px); }
+  .memory-stack { height: clamp(250px, 40dvh, 340px); }
   .greeting { font-size: clamp(2rem, 8vw, 2.6rem); }
 }
 
